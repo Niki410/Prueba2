@@ -1,0 +1,176 @@
+body,
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300, 400;
+
+}
+
+.texto-nav {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+#icono {
+    width: 30px;
+    height: 30px;
+}
+
+.nav-item {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+/* --- --- CAROUSEL --- --- */
+.carousel__contenedor {
+    position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 100px;
+    text-align: center;
+    background: none;
+    color: #000;
+    opacity: 20%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+    opacity: 100%;
+}
+
+.carousel__anterior {
+    left: -30px;
+}
+
+.carousel__siguiente {
+    right: -30px;
+}
+
+.carousel__lista {
+    overflow: hidden;
+}
+
+.carousel__elemento {
+    text-align: center;
+}
+
+.carousel__indicadores .glider-dot {
+    width: 0.71rem;
+    height: 0.71rem;
+    border-radius: 50%;
+    background-color: #373A3C;
+}
+
+.carousel__indicadores .glider-dot:hover {
+    bottom: -5.5rem;
+
+}
+
+#quienes-somos {
+    background-color: #000;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.titulo-h3 {
+    font-weight: 300;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.columnas {
+    margin-top: 20px;
+    padding-left: 30px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.fa-solid {
+    padding-block: 1%;
+    padding-inline: 50%;
+    background-color: #17a2b8;
+}
+
+.tarjetas {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.text-center {
+    padding-top: 50px;
+}
+
+.card {
+    margin-right: 20px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #FFFFFF;
+    border-style: none;
+}
+
+.card-body{
+    background-color: #17a2b8;
+    
+}
+
+.formulario {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    text-align: left;
+}
+
+.form {
+    background-color: #000;
+}
+
+.btn-light{
+
+    color: #17a2b8;
+}
+
+#footer {
+    background: #17a2b8;
+    height: 50px;
+  }
+
+  .text-light{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-right: 25px;
+
+  }
+  
+.box{
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #FFFFFF;
+    align-items: end;
+
+}
